@@ -1,0 +1,8 @@
+USERNAME = 'root'
+PASSWORD = 'krcusz26wrh'
+HOST = '127.0.0.1'
+PORT = '3306'
+DATABASE = 'mygym'
+DB_URI = 'mysql+pymysql://{}:{}@{}:{}/{}'.format(USERNAME, PASSWORD, HOST, PORT, DATABASE)
+SQLALCHEMY_DATABASE_URI = DB_URI
+SQLALCHEMY_TRACK_MODIFICATION = False
