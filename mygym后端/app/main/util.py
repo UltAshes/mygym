@@ -2,7 +2,6 @@ from datetime import timedelta, datetime
 import jwt
 from flask import jsonify, request
 
-
 SECRET_KEY = "asjcklqencoiwrev45y6"
 ALGORITHM = "HS256"
 
@@ -20,7 +19,6 @@ def create_token(username, access, uid):
     return access_token
 
 
-
 def check_token(func):
     def wrapper():
         token = request.headers.get("Authorization")
@@ -36,5 +34,6 @@ def check_token(func):
             return jsonify(code=401, message="token已过期")
         except jwt.PyJWTError:
             return jsonify(code=401, message="无法检验token")
+
     wrapper.__name__ = func.__name__
     return wrapper

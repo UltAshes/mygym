@@ -1,19 +1,14 @@
 <template>
-    <!--列表-->
     <div class="list-container">
         <div class="sortList clearfix">
             <div class="center">
-                <!--banner轮播-->
                 <div class="swiper-container" id="mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="./images/banner1.jpg" />
                         </div>
                     </div>
-                    <!-- 如果需要分页器 -->
                     <div class="swiper-pagination"></div>
-
-                    <!-- 如果需要导航按钮 -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
@@ -21,44 +16,38 @@
             <div class="right">
                 <div class="news">
                     <h4>
-                        <em class="fl">随心健身房快报</em>
+                        <em class="fl">heart Gym news</em>
 
                     </h4>
                     <div class="clearix"></div>
                     <ul class="news-list unstyled">
                         <li>
-                            <span class="bold">[公告]</span>备战开学季 全民健身中
+                            <span class="bold">[news]</span> Five things you need to know about how to Become healthy
                         </li>
                         <li>
-                            <span class="bold">[公告]</span>备战开学季 全民健身中
+                            <span class="bold">[news]</span>How to Eat Healthy
                         </li>
                         <li>
-                            <span class="bold">[公告]</span>备战开学季 全民健身中
-                        </li>
-                        <li>
-                            <span class="bold">[公告]</span>备战开学季 全民健身中
-                        </li>
-                        <li>
-                            <span class="bold">[公告]</span>备战开学季 全民健身中
+                            <span class="bold">[news]</span>Fitness supplies are half off for a limited time
                         </li>
                     </ul>
                 </div>
                 <ul class="lifeservices">
                     <li class=" life-item ">
                         <i class="list-item"></i>
-                        <span class="service-intro">综合格斗</span>
+                        <span class="service-intro">combat</span>
                     </li>
                     <li class=" life-item ">
                         <i class="list-item"></i>
-                        <span class="service-intro">跑酷</span>
+                        <span class="service-intro">parkour</span>
                     </li>
                     <li class=" life-item ">
                         <i class="list-item"></i>
-                        <span class="service-intro">瑜伽</span>
+                        <span class="service-intro">yoga</span>
                     </li>
                     <li class=" life-item ">
                         <i class="list-item"></i>
-                        <span class="service-intro">普拉提</span>
+                        <span class="service-intro">Pilates</span>
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
@@ -66,31 +55,31 @@
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
-                        <span class="service-intro">力量举</span>
+                        <span class="service-intro">Strength training</span>
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
-                        <span class="service-intro">健美</span>
+                        <span class="service-intro">Handsome and healthy</span>
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
-                        <span class="service-intro">韵律操</span>
+                        <span class="service-intro">gymnastics</span>
                     </li>
                     <li class=" life-item ">
                         <i class="list-item"></i>
-                        <span class="service-intro">型体操</span>
+                        <span class="service-intro">sports climbing</span>
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
-                        <span class="service-intro">单车</span>
+                        <span class="service-intro">bicycle</span>
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
-                        <span class="service-intro">慢跑</span>
+                        <span class="service-intro">Canter</span>
                     </li>
                     <li class=" life-item">
                         <i class="list-item"></i>
-                        <span class="service-intro">卧推</span>
+                        <span class="service-intro">Bench press</span>
                     </li>
                 </ul>
                 <div class="ads">

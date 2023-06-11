@@ -5,11 +5,9 @@
       <div class="login">
         <div class="loginform">
           <ul class="tab clearFix">
+
             <li>
-              <a href="##" style="border-right: 0;">扫描登录</a>
-            </li>
-            <li>
-              <a href="##" class="current">账户登录</a>
+              <a href="##" class="current">Password login</a>
             </li>
           </ul>
 
@@ -17,20 +15,20 @@
             <form>
               <div class="input-text clearFix">
                 <span></span>
-                <input type="text" placeholder="邮箱/用户名/手机号" v-model="phone">
+                <input type="text" placeholder="Your Phone" v-model="phone">
               </div>
               <div class="input-text clearFix">
                 <span class="pwd"></span>
-                <input type="text" placeholder="请输入密码" v-model="password">
+                <input type="text" placeholder="Please enter password" v-model="password">
               </div>
               <div class="setting clearFix">
                 <label class="checkbox inline">
                   <input name="m1" type="checkbox" value="2" checked="">
-                  自动登录
+                  Automatic login
                 </label>
-                <span class="forget">忘记密码？</span>
+                <span class="forget">Forget your password？</span>
               </div>
-              <button class="btn" @click.prevent="userLogin">登&nbsp;&nbsp;录</button>
+              <button class="btn" @click.prevent="userLogin">Login</button>
             </form>
 
             <div class="call clearFix">
@@ -40,7 +38,7 @@
                 <li><img src="./images/ali.png" alt=""></li>
                 <li><img src="./images/weixin.png" alt=""></li>
               </ul>
-              <router-link class="register" to="/register">立即注册</router-link>
+              <router-link class="register" to="/register">Get a Acount</router-link>
             </div>
           </div>
         </div>
@@ -48,8 +46,8 @@
     </div>
     <!-- 底部 -->
     <div class="copyright">
-      <div class="address">地址：福州大学</div>
-      <div class="beian">王舒晗
+      <div class="address">address：FuZhou university</div>
+      <div class="beian">
       </div>
     </div>
   </div>
@@ -108,7 +106,7 @@
         .tab {
 
           li {
-            width: 50%;
+            width: 100%;
             float: left;
             text-align: center;
 

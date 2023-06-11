@@ -4,17 +4,17 @@
         <div class="top">
             <div class="container">
                 <div class="loginList">
-                    <p>随心健身房欢迎您！</p>
+                    <p>Welcome to the Heart Gym</p>
                     <p>
-                        <span>请</span>
-                        <router-link to="/login">登录</router-Link>
-                        <router-link class="register" to="/register">免费注册</router-link>
+                        <span>try to </span>
+                        <router-link to="/login">login</router-Link>
+                        <router-link class="register" to="/register">register</router-link>
                     </p>
                 </div>
                 <div class="typeList">
-                    <a href="###">我的健身房</a>
-                    <a href="###">加入健身房会员</a>
-                    <a href="###">关注我们</a>
+                    <a href="###">My Gym</a>
+                    <a href="###">become the Gym VIP</a>
+                    <a href="###">Follow us</a>
                 </div>
             </div>
         </div>
@@ -27,14 +27,14 @@
             </h1>
             <div class="searchArea">
                 <form action="###" class="searchForm">
-                    <input 
+                    <!--<input 
                     type="text" 
                     id="autocomplete" 
                     class="input-error input-xxlarge" 
                     v-model="keyword"
-                    />
+                    />-->
                     <button class="sui-btn btn-xlarge btn-danger" type="button" @click="goSearch">
-                        搜索
+                        Rental equipment
                     </button>
                 </form>
             </div>
@@ -131,7 +131,7 @@ export default {
                     width: 490px;
                     height: 32px;
                     padding: 0px 4px;
-                    border: 2px solid #ea4a36;
+                    border: 2px solid #000000;
                     float: left;
 
                     &:focus {
@@ -140,9 +140,9 @@ export default {
                 }
 
                 button {
-                    height: 32px;
-                    width: 68px;
-                    background-color: #ea4a36;
+                    height: 50px;
+                    width: 200px;
+                    background-color: #b54848;
                     border: none;
                     color: #fff;
                     float: left;

@@ -1,7 +1,9 @@
 <template>
     <div class="type-nav">
         <div class="container">
-            <h2 class="all">训练类型</h2>
+            <a href="https://dashing-camellia-dswbsb.mystrikingly.com/" target="_blank">
+            <h2 class="all">Training video</h2>
+            </a>
             <div class="sort">
                 <div class="all-sort-list2">
                     <div class="item" v-for="(c1,index) in categoryList" :key="c1.categoryId">
@@ -47,7 +49,7 @@ export default {
     
 <style scoped lang="less">
 .type-nav {
-    border-bottom: 2px solid #e1251b;
+    border-bottom: 2px solid #000000;
 
     .container {
         width: 1200px;
@@ -58,7 +60,7 @@ export default {
         .all {
             width: 210px;
             height: 45px;
-            background-color: #e1251b;
+            background-color: #000000;
             line-height: 45px;
             text-align: center;
             color: #fff;

@@ -4,13 +4,14 @@
             <div class="footerList">
                 <div class="footerItem">
                 <div class="footerItem">
-                    <img src="./images/wx_cz.jpg">
+                    <!--<img src="./images/wx_cz.jpg"> -->
                 </div>
             </div>
             </div>
             <div class="copyright">
-                <p>地址：福州大学</p>
-                <p>XXXXXXX</p>
+                <h3>daily knowledge</h3>
+                <p>In addition to physical benefits of exercise, it is also to make a fresh spirit of the people to keep the best way。</p>
+                <p></p>
             </div>
         </div>
     </div>
@@ -23,7 +24,9 @@
 <style scoped lang="less">
 .footer {
     background-color: #eaeaea;
-
+    h3{
+        text-align: center;
+    }
     .footer-container {
         width: 1200px;
         margin: 0 auto;

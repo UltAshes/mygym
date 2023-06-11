@@ -5,7 +5,7 @@
                 <li class="clock">
                     <div class="time">
                         <img src="./images/clock.png" />
-                        <h3>今日推荐</h3>
+                        <h3>Recommended diet</h3>
                     </div>
                 </li>
                 <li class="banner">
@@ -37,7 +37,7 @@
 
         .recommend {
             height: 165px;
-            background-color: #eaeaea;
+            background-color: #fefefe;
             margin: 10px 0;
             display: flex;
 
@@ -62,7 +62,12 @@
 
             .banner {
                 width: 20.83%;
-
+                border:1px solid #000000;
+                p{
+                    font-size: 40px;
+                    font-family: Arial;
+                    color: #000000;
+                }
                 img {
                     width: 100%;
                     height: 100%;

@@ -2,46 +2,46 @@
   <div class="register-container">
     <!-- 注册内容 -->
     <div class="register">
-      <h3>注册新用户
-        <span class="go">我有账号，去
-          <router-link to="/login" target="_blank">登陆</router-link>
+      <h3>Register
+        <span class="go">I have a Accont, to
+          <router-link to="/login" target="_blank">Login</router-link>
         </span>
       </h3>
       <div class="content">
-        <label>手机号:</label>
-        <input type="text" placeholder="请输入你的手机号" v-model="phone">
-        <span class="error-msg">错误提示信息</span>
+        <label>Phone:</label>
+        <input type="text" placeholder="Please Enten Your Phone Number" v-model="phone">
+        <span class="error-msg"></span>
       </div>
       <div class="content">
-        <label>验证码:</label>
-        <input type="text" placeholder="请输入验证码" v-model="code">
-        <button style="width: 100px;height: 38px;" @click="getCode">获取验证码</button>
-        <span class="error-msg">错误提示信息</span>
+        <label>Code:</label>
+        <input type="text" placeholder="Please Enten the Code" v-model="code">
+        <button style="width: 100px;height: 38px;" @click="getCode">Get a Code</button>
+        <span class="error-msg"></span>
       </div>
       <div class="content">
-        <label>登录密码:</label>
-        <input type="password" placeholder="请输入你的登录密码" v-model="password">
-        <span class="error-msg">错误提示信息</span>
+        <label>Password:</label>
+        <input type="password" placeholder="Please Enten Your Password" v-model="password">
+        <span class="error-msg"></span>
       </div>
       <div class="content">
-        <label>确认密码:</label>
-        <input type="password" placeholder="请输入确认密码" v-model="password1">
-        <span class="error-msg">错误提示信息</span>
+        <label>password:</label>
+        <input type="password" placeholder="Please Enten Your Password Again" v-model="password1">
+        <span class="error-msg"></span>
       </div>
       <div class="controls">
         <input name="m1" type="checkbox" :checked="agree" />
-        <span>同意协议并注册《尚品汇用户协议》</span>
-        <span class="error-msg">错误提示信息</span>
+        <span>Agree our consent</span>
+        <span class="error-msg"></span>
       </div>
       <div class="btn">
-        <button @click="userRegister">完成注册</button>
+        <button @click="userRegister">Registration complete</button>
       </div>
     </div>
 
     <!-- 底部 -->
     <div class="copyright">
-      <div class="address">地址：福州大学</div>
-      <div class="beian">王舒晗
+      <div class="address">address：FuZhou university</div>
+      <div class="beian">
       </div>
     </div>
   </div>
@@ -110,7 +110,7 @@ export default {
         float: right;
 
         a {
-          color: #e1251b;
+          color: #000000;
         }
       }
     }
@@ -149,7 +149,7 @@ export default {
         position: absolute;
         top: 100%;
         left: 495px;
-        color: red;
+        color: rgb(0, 0, 0);
       }
     }
 
@@ -165,7 +165,7 @@ export default {
         position: absolute;
         top: 100%;
         left: 495px;
-        color: red;
+        color: rgb(0, 0, 0);
       }
     }
 
@@ -178,7 +178,7 @@ export default {
         outline: none;
         width: 270px;
         height: 36px;
-        background: #e1251b;
+        background: #000000;
         color: #fff !important;
         display: inline-block;
         font-size: 16px;
